@@ -6,6 +6,16 @@ var startBtn = document.getElementById("start");
 var startTime = 60;
 
 
+var questions = [
+
+    {
+        question: "This performs a task or calculates a value in JS.",
+        answer: "A Function",
+        choices: ["An Array", "A Function", "A for loop"],
+    }
+];
+
+
 function start() {
     
 timeEl.textContent = startTime;
